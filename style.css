@@ -66,4 +66,65 @@ body {
       background-color: #aa5cdb;
       opacity: 0.6; }
 
+@media screen and (max-width: 375px) {
+  .card-container {
+    border-radius: 20px;
+    width: 90%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column-reverse;
+    justify-content: space-between; }
+    .card-container .card-data {
+      margin: 3em 0;
+      width: 90%;
+      padding: 0; }
+      .card-container .card-data h1 {
+        font-size: 1.8em;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto; }
+      .card-container .card-data p {
+        width: 90%;
+        margin: 2em auto 0;
+        color: rgba(255, 255, 255, 0.75);
+        line-height: 1.6;
+        text-align: center; }
+      .card-container .card-data .card-statistics {
+        width: 100%;
+        font-family: "Lexend Deca", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between; }
+        .card-container .card-data .card-statistics h3 {
+          color: #fff;
+          font-size: 1.5em;
+          font-weight: 400;
+          text-align: center;
+          margin-top: 1em; }
+        .card-container .card-data .card-statistics h4 {
+          color: rgba(255, 255, 255, 0.6);
+          text-transform: uppercase;
+          font-size: 0.7em;
+          text-align: center; }
+        .card-container .card-data .card-statistics .card--statistcis__group {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center; }
+    .card-container .card-image {
+      width: 100%; }
+      .card-container .card-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px; }
+      .card-container .card-image .overlay {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px; } }
+
 /*# sourceMappingURL=style.css.map */
